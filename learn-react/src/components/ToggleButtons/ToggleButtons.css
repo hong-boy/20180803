@@ -1,0 +1,13 @@
+.btn-group {
+    margin: 0 auto;
+}
+.item {
+    cursor: pointer;
+    background: #eee;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.selected {
+    box-shadow: 0 0 5px inset #999;
+}

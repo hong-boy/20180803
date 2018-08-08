@@ -1,0 +1,11 @@
+.todo-list {
+    width: 90%;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.done {
+    label {
+        text-decoration: line-through;
+    }
+}

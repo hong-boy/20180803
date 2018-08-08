@@ -1,0 +1,9 @@
+.root {
+    box-shadow: 0 0 5px #ccc;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

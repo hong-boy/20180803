@@ -1,0 +1,19 @@
+.btn-group {
+    margin: 0 auto;
+    border: 1px solid #eee;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.item {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.selected {
+    box-shadow: 0 0 5px inset #ccc;
+}
