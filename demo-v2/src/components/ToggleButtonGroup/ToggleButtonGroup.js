@@ -2,7 +2,6 @@ import React from 'react'
 import ButtonLink from './ButtonLink'
 
 export default class ToggleButtonGroup extends React.Component {
-    onclick(){}
     render(){
         return (
             <div>
