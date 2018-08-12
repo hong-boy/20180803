@@ -1,3 +1,20 @@
 .text-center {
     text-align:  center;
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a, a:focus {
+    text-decoration: none;
+}
+
+.dashboard {
+    width: 400px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px #ddd;
+    padding: 20px;
+}

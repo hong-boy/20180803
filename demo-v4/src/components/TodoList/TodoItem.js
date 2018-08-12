@@ -1,5 +1,8 @@
 import React from 'react'
+import classNames from 'classnames'
 import PropTypes from 'prop-types'
+import { Checkbox } from 'antd'
+import styles from './TodoList.scss'
 
 export default class TodoItem extends React.Component {
     static propTypes = {
@@ -12,14 +15,14 @@ export default class TodoItem extends React.Component {
         this.props.toggleTodoItem(id, e.target.checked);
     }
     render(){
-        let {id, label, done, toggleTodoItem} = this.props;
+        let {id, label, done} = this.props;
         return (
-            <li>
-                <input type="checkbox"
-                    id={id}
+            <li className={classNames({[styles['done']]: done})}>
+                <Checkbox
                     onChange={this.onchange.bind(this, id)}
-                    checked={done}/>
-                <label htmlFor={id}>{label}</label>
+                    checked={done}>
+                    {label}
+                </Checkbox>
             </li>
         );
     }

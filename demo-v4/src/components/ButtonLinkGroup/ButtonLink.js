@@ -11,7 +11,7 @@ export default class ButtonLinkGroup extends React.Component {
         let {filter, label} = this.props;
         return (
             <NavLink to={`/${filter}`}>
-                <button>{label}</button>
+                <span>{label}</span>
             </NavLink>
         );
     }

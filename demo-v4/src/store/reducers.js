@@ -7,5 +7,5 @@ import TodoList from '../components/TodoList/TodoList.reducer'
 
 export {
     AddTodo,
-    TodoList
+    TodoList,
 }
