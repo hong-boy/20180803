@@ -10,6 +10,7 @@ const ENUM_ADD_TODO_TYPE = {
 // TodoList组件
 const ENUM_TODO_LIST_TYPE = {
     ADD_TODO_ITEM: 'ADD_TODO_ITEM', // 添加新待办
+    ADD_TODO_ITEM_ASYNC: 'ADD_TODO_ITEM_ASYNC', // 添加新待办
     TOGGLE_TODO_ITEM_STATE: 'TOGGLE_TODO_ITEM_STATE', // 切换状态
 };
 

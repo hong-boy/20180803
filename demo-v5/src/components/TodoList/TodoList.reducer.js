@@ -19,7 +19,7 @@ export default function(state=INITIAL_STATE, action){
                 ...state,
                 list: [
                     ...state.list,
-                    new TodoItemModel(action.payload, false)
+                    new TodoItemModel(action.payload.payload, false)
                 ]
             };
         }
